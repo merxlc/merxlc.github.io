@@ -88,6 +88,13 @@ function draw() {
       } else {
         finalstring += curr;
       }
+    } else if (code == 'Yr') {
+      let curr = str(yr).slice(-2)
+      if (curr.length == 1) {
+        finalstring += '0'+curr
+      } else {
+        finalstring += curr;
+      }
     } else if (code == 'en') {
       finalstring += da + '/' + mo + '/' + yr
     } else if (code == 'us') {

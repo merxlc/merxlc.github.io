@@ -1,0 +1,9 @@
+names
+[
+john
+dave
+]
+
+@final
+%names%
+@final
